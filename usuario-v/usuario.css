@@ -1,0 +1,89 @@
+*{margin: 0; padding: 0;}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 360px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background:#012033;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:whitesmoke;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: yellowgreen;
+}
+.cont{background-color:black; width: 100%; height: auto;}
+.line-1{background-color: #012033 ; width: 100%; height: 150px; position: relative; border:1px solid black; box-shadow:3px 3px 6px black;}
+.logo{width: 190px; height: 130px; 
+      background-image:url(../vista/img/lll.png); 
+      background-repeat: no-repeat; 
+      background-size: 100% 100%; 
+      position: absolute; 
+      top:10px;
+      left: 5px;
+      border-radius: 360px;
+      
+    }
+#certi{width: 20px;  height: 20px; color: greenyellow; text-shadow: 1px 1px 3px greenyellow;}
+.titu-1{text-shadow: 1px 1px 3px black, -1px -1px 3px black;}
+.redes-inf{background-color:none ; position: absolute; right: 5px; bottom:5px; width: 250px; height: 45px;  }
+.ico{width: 40px; height: 40px; box-shadow: 1px 1px 3px whitesmoke; border-radius: 360px;margin-left: 5px;}
+.ico:hover{box-shadow: 1px 1px 3px green,-1px -1px 3px green; cursor: pointer;}
+.letras{position: absolute; top:15px; left: 180px; color:gray; width:auto; height: 200px; font-size: 10px;}
+.line-2{background-color: darkgoldenrod; width: 100%; height: 300px;}
+.line-3{background-color: black; width: 100%; height: 60px;}
+.line-4{background-color: black; width: 
+        100%; height: 500px; 
+        padding: 10px 10px;
+        overflow: auto;}
+#car{width: 60%; height:100%; border-radius: 5px;
+     border-bottom-left-radius: none;
+     border-bottom-right-radius: none;
+     box-shadow: 1px 1px 3px black, -1px -1px 3px black;
+     margin-bottom: 5px;
+    }
+.card-title{float: left;}
+.card-body{position: relative;}
+.conta{width: 100%; height: auto; 
+         background-color: none; 
+         text-align: left; 
+         padding: 5px 50px; 
+         border-radius: 5px; 
+         box-shadow: 1px 1px 3px black;
+         position:relative;}
+  .card-header{text-align: left; width: 100%; height: 2px;}
+  .li{list-style: none; color:whitesmoke;}
+   #boton-info{border-radius: 10px;background-color:#011d2e ; color: white; }
+   #boton-info:hover{cursor: pointer; background-color: #0264a1ae; box-shadow: 1px 1px 6px yellowgreen,-1px -1px 3px yellowgreen;;}
+   .color-status{width: 100%; height: 5px; border-radius: 50px;}
+   #card{background-color: #011d2e ; border-radius: 10px; box-shadow: 1px 1px 3px black , -1px -1px 3px black;}
+   .buscador{width: 100%; height: 60px; 
+             background-color:none; 
+             padding-top:18px;
+             display: flex;
+             justify-content: center;
+             align-items: center;}
+  .estado-i{position: absolute; top:5px; right:10px; width: 100px; height: 30px;  padding: 3px 5px; border-radius: 5px; color:rgb(6, 5, 16); box-shadow: 2px 2px 3px black; }
+   #certifi{ position:absolute; top:25px; right:10px; font-size:40px; color:gold; text-shadow: 1px 1px 3px black, -1px -1px 3px black; }
+   #botonB{background-color:#011d2e ; color: white; padding: 13px 13px; float: left; margin-left: 10px; margin-top: 15px; border-radius: 5px; box-shadow: 1px 1px 3px #0a4f47,-1px -1px 3px #0a4f47;}
+   #botonB:hover{cursor: pointer; background-color: #0264a1ae; box-shadow: 1px 1px 6px yellowgreen,-1px -1px 3px yellowgreen;}
+   #bus{background-color:#012841ab;border-radius: 7px; margin-top: 14px;  color:greenyellow; padding:5px 5px; width:500px; height: 45px; float: left; box-shadow:3px 3px 9px #022a43,-3px -3px 9px #022a43;}
+   .footer{background-color: #012841ab; position: relative; color:whitesmoke; width: 100%; height: 200px; box-shadow: 1px 1px 3px black,-1px -1px 3px black; padding: 5px 10px; padding-left: 50px;}
+   .linea-final{background-color:black; width: 100%; height: 40px; text-align: center;color:whitesmoke; }
+  .derechos{padding:5px 5px; }
+   #star{color:gold;}
+   #priority{color:greenyellow;}
+   #location{color:red; font-size: 40px;}
+   .footer-side{background-color:none; width: 300px; height: auto; position: absolute; top:0px; right: 10px; padding: 5px 5px;}
+
+   
+
+
